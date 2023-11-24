@@ -1,0 +1,361 @@
+FAILED TEST LOG
+  ✘ The "character_id" column should have the "UNIQUE" constraint
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/970.test.js:24:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "character_id" column should have the "UNIQUE" constraint
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/970.test.js:24:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "character_id" column should have the "UNIQUE" constraint
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/970.test.js:24:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "character_id" column should have the "UNIQUE" constraint
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/970.test.js:24:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "character_id" column should have the "UNIQUE" constraint
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/970.test.js:24:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "character_id" column should have the "UNIQUE" constraint
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/980.test.js:20:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "more_info" table should have the correct row for "Mario"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1020.test.js:20:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "more_info" table should have the correct row for "Mario"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1020.test.js:20:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ You should view "character_id" and "name" column for all rows from "characters"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert((select1.test(lastLog) || select2.test(lastLog)) && !/ERROR/.test(lastLog))
+
+at Context.<anonymous> (test/1040.test.js:10:5)
+FAILED TEST LOG
+  ✘ The "more_info" table should have the correct row for "Luigi"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1050.test.js:20:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "more_info" table should have the correct row for "Luigi"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1050.test.js:20:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "more_info" table should have the correct row for "Luigi"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1050.test.js:20:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "more_info" table should have the correct row for "Luigi"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1050.test.js:20:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ You should view the "character_id" and "name" column's from "more_info" for Toad's row
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(correctColumnsInQuery && correctNumberOfRows && correctResult && !/ERROR/.test(lastLog))
+
+at Context.<anonymous> (test/1090.test.js:14:5)
+FAILED TEST LOG
+  ✘ You should view suggested columns from "characters" for only Bowser's row
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(correctColumnsInQuery && correctNumberOfRows && correctResults && !/ERROR/.test(lastLog))
+
+at Context.<anonymous> (test/1120.test.js:14:5)
+FAILED TEST LOG
+  ✘ You should display the details of the "sounds" table
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/Table"public\.sounds"/.test(lastQueryResult))
+
+at Context.<anonymous> (test/1290.test.js:8:5)
+FAILED TEST LOG
+  ✘ The "sounds" table should have "yay.wav" and "woo-hoo.wav" rows that Peach uses
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1350.test.js:22:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "sounds" table should have "yay.wav" and "woo-hoo.wav" rows that Peach uses
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1350.test.js:22:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "sounds" table should have "yay.wav" and "woo-hoo.wav" rows that Peach uses
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1350.test.js:22:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "sounds" table should have "yay.wav" and "woo-hoo.wav" rows that Peach uses
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1350.test.js:22:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "sounds" table should have "yay.wav" and "woo-hoo.wav" rows that Peach uses
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1350.test.js:22:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "sounds" table should have "yay.wav" and "woo-hoo.wav" rows that Peach uses
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1350.test.js:22:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "sounds" table should have "yay.wav" and "woo-hoo.wav" rows that Peach uses
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1350.test.js:22:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "sounds" table should have "yay.wav" and "woo-hoo.wav" rows that Peach uses
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1350.test.js:22:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "sounds" table should have "mm-hmm.wav" and "yahoo.wav" rows with the correct foreign key values
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1360.test.js:22:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "sounds" table should have "mm-hmm.wav" and "yahoo.wav" rows with the correct foreign key values
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1360.test.js:22:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "sounds" table should have "mm-hmm.wav" and "yahoo.wav" rows with the correct foreign key values
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1360.test.js:22:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "sounds" table should have "mm-hmm.wav" and "yahoo.wav" rows with the correct foreign key values
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1360.test.js:22:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ You should view all the data in "characters" ordered by "character_id"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(selectAll.test(lastLog) && !/ERROR/.test(lastLog))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should view all the data in "characters" ordered by "character_id"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(selectAll.test(lastLog) && !/ERROR/.test(lastLog))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should view all the data in "characters" ordered by "character_id"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(selectAll.test(lastLog) && !/ERROR/.test(lastLog))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should view all the data in "characters" ordered by "character_id"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(selectAll.test(lastLog) && !/ERROR/.test(lastLog))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should display the details of the "character_actions" table
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/Table"public\.character_actions"/.test(lastQueryResult))
+
+at Context.<anonymous> (test/1470.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should display the details of the "character_actions" table
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/Table"public\.character_actions"/.test(lastQueryResult))
+
+at Context.<anonymous> (test/1510.test.js:8:5)
+FAILED TEST LOG
+  ✘ The "character_actions" table should have three rows for Yoshi's actions
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1540.test.js:20:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "character_actions" table should have three rows for Yoshi's actions
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1540.test.js:20:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "character_actions" table should have three rows for Yoshi's actions
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1540.test.js:20:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "character_actions" table should have three rows for Yoshi's actions
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1540.test.js:20:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ You should display the tables with suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(d.test(lastLog))
+
+at Context.<anonymous> (test/1630.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should display the tables with suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(d.test(lastLog))
+
+at Context.<anonymous> (test/1630.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should view all the data from "character_actions", "characters", "actions" with JOIN statements
+
+TypeError: Cannot read property 'length' of null
+at Context.<anonymous> (test/1680.test.js:8:46)
+FAILED TEST LOG
+  ✘ You should view all the data from "character_actions", "characters", "actions" with JOIN statements
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(correctNumberOfRows && test1 && column_1 && column_2)
+
+at Context.<anonymous> (test/1680.test.js:13:5)

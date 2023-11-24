@@ -1,0 +1,5 @@
+[credential]
+	helper = "!f() { /home/codeally/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node /tmp/vscode-remote-containers-4db94ff5-8bc1-4dae-95d9-250750839a1b.js git-credential-helper $*; }; f"
+[user]
+	name = Manuel Smith
+	email = riddicksmith37@gmail.com

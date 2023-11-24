@@ -1,0 +1,27 @@
+FAILED TEST LOG
+  ✘ The "character_id" column should have the "UNIQUE" constraint
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/970.test.js:24:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "character_id" column should have the "UNIQUE" constraint
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/970.test.js:24:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ The "character_id" column should have the "UNIQUE" constraint
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/970.test.js:24:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)

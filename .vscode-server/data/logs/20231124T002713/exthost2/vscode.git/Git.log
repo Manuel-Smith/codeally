@@ -1,0 +1,76 @@
+2023-11-24 07:40:35.097 [info] Log level: Info
+2023-11-24 07:40:35.097 [info] Validating found git in: "git"
+2023-11-24 07:40:35.097 [info] Using git "2.25.1" from "git"
+2023-11-24 07:40:35.097 [info] > git rev-parse --show-toplevel [4ms]
+2023-11-24 07:40:35.097 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-24 07:40:35.097 [info] > git rev-parse --show-toplevel [22ms]
+2023-11-24 07:40:35.097 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-24 07:40:35.098 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-24 07:40:35.098 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-24 07:40:35.103 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-24 07:40:35.103 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-24 07:40:35.108 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-24 07:40:35.108 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-24 07:40:35.113 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-24 07:40:35.113 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-24 07:40:35.118 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-24 07:40:35.123 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-11-24 07:40:35.133 [info] Open repository: /home/codeally/project
+2023-11-24 07:40:35.143 [info] > git config --get commit.template [2ms]
+2023-11-24 07:40:35.149 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-11-24 07:40:35.159 [info] > git status -z -uall [5ms]
+2023-11-24 07:40:35.172 [info] > git config --get commit.template [1ms]
+2023-11-24 07:40:35.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-11-24 07:40:35.191 [info] > git status -z -uall [2ms]
+2023-11-24 07:40:35.664 [info] > git check-ignore -v -z --stdin [0ms]
+2023-11-24 07:40:49.150 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-24 07:40:49.150 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-24 07:40:53.658 [info] > git rev-parse --show-toplevel [5ms]
+2023-11-24 07:40:53.659 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-24 07:40:54.717 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-24 07:40:54.717 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-24 07:40:56.297 [info] > git check-ignore -v -z --stdin [1ms]
+2023-11-24 07:40:57.619 [info] > git check-ignore -v -z --stdin [2ms]
+2023-11-24 07:40:59.945 [info] > git show --textconv :.freeCodeCamp/db.sql [7ms]
+2023-11-24 07:40:59.946 [info] > git ls-files --stage -- /home/codeally/project/.freeCodeCamp/db.sql [2ms]
+2023-11-24 07:40:59.952 [info] > git cat-file -s 504200ac5312d5cc53933ed89096794350cf9a89 [1ms]
+2023-11-24 07:41:53.277 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-24 07:41:53.278 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-24 07:42:02.288 [info] > git config --get commit.template [5ms]
+2023-11-24 07:42:02.289 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-11-24 07:42:02.294 [info] > git status -z -uall [1ms]
+2023-11-24 07:42:07.317 [info] > git config --get commit.template [8ms]
+2023-11-24 07:42:07.318 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-11-24 07:42:07.326 [info] > git status -z -uall [3ms]
+2023-11-24 07:42:12.339 [info] > git config --get commit.template [1ms]
+2023-11-24 07:42:12.344 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-11-24 07:42:12.349 [info] > git status -z -uall [2ms]
+2023-11-24 07:42:13.807 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-24 07:42:13.816 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-11-24 07:42:13.824 [info] Open repository: /home/codeally
+2023-11-24 07:42:13.832 [info] > git config --get commit.template [2ms]
+2023-11-24 07:42:13.836 [info] No remotes found in the git config file.
+2023-11-24 07:42:13.837 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-11-24 07:42:13.911 [info] > git status -z -uall [69ms]
+2023-11-24 07:42:14.858 [info] > git check-ignore -v -z --stdin [57ms]
+2023-11-24 07:42:14.859 [info] > git check-ignore -v -z --stdin [38ms]
+2023-11-24 07:42:14.860 [info] > git config --get commit.template [102ms]
+2023-11-24 07:42:14.892 [info] No remotes found in the git config file.
+2023-11-24 07:42:14.892 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-11-24 07:42:15.010 [info] > git status -z -uall [98ms]
+2023-11-24 07:42:15.135 [info] > git show --textconv :.sudo_as_admin_successful [10ms]
+2023-11-24 07:42:15.136 [info] > git ls-files --stage -- /home/codeally/.sudo_as_admin_successful [4ms]
+2023-11-24 07:42:17.368 [info] > git config --get commit.template [7ms]
+2023-11-24 07:42:17.368 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-11-24 07:42:17.376 [info] > git status -z -uall [2ms]
+2023-11-24 07:42:20.194 [info] > git config --get commit.template [1ms]
+2023-11-24 07:42:20.202 [info] No remotes found in the git config file.
+2023-11-24 07:42:20.202 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-11-24 07:42:20.254 [info] > git status -z -uall [45ms]
+2023-11-24 07:42:22.422 [info] > git config --get commit.template [17ms]
+2023-11-24 07:42:22.422 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-11-24 07:42:22.433 [info] > git status -z -uall [3ms]
+2023-11-24 07:42:25.361 [info] No remotes found in the git config file.
+2023-11-24 07:42:25.362 [info] > git config --get commit.template [8ms]
+2023-11-24 07:42:25.362 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-11-24 07:42:25.415 [info] > git status -z -uall [47ms]

@@ -1,0 +1,384 @@
+                        List of relations
++--------+-----------------------------+----------+--------------+
+| Schema |            Name             |   Type   |    Owner     |
++--------+-----------------------------+----------+--------------+
+| public | characters                  | table    | freecodecamp |
+| public | characters_character_id_seq | sequence | freecodecamp |
+| public | more_info                   | table    | freecodecamp |
+| public | more_info_more_info_id_seq  | sequence | freecodecamp |
+| public | sounds                      | table    | freecodecamp |
+| public | sounds_sound_id_seq         | sequence | freecodecamp |
++--------+-----------------------------+----------+--------------+
+(6 rows)
+
+                                          Table "public.sounds"
++--------------+-----------------------+-----------+----------+------------------------------------------+
+|    Column    |         Type          | Collation | Nullable |                 Default                  |
++--------------+-----------------------+-----------+----------+------------------------------------------+
+| sound_id     | integer               |           | not null | nextval('sounds_sound_id_seq'::regclass) |
+| filename     | character varying(40) |           | not null |                                          |
+| character_id | integer               |           | not null |                                          |
++--------------+-----------------------+-----------+----------+------------------------------------------+
+Indexes:
+    "sounds_pkey" PRIMARY KEY, btree (sound_id)
+    "sounds_filename_key" UNIQUE CONSTRAINT, btree (filename)
+Foreign-key constraints:
+    "sounds_character_id_fkey" FOREIGN KEY (character_id) REFERENCES characters(character_id)
+
+                     
++----------+--------------+--------------+
+| sound_id |   filename   | character_id |
++----------+--------------+--------------+
+|        1 | its-a-me.wav |            1 |
+|        2 | yippee.wav   |            1 |
+|        3 | ha-ha.wav    |            2 |
+|        4 | oh-yeah.wav  |            2 |
+|        8 | yay.wav      |            3 |
+|        9 | woo-hoo.wav  |            3 |
+|       10 | mm-hmm.wav   |            3 |
+|       11 | yahoo.wav    |            1 |
++----------+--------------+--------------+
+(8 rows)
+
+CREATE TABLE
+ALTER TABLE
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+           
++-----------+--------+
+| action_id | action |
++-----------+--------+
+|         1 | run    |
+|         2 | jump   |
+|         3 | duck   |
++-----------+--------+
+(3 rows)
+
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+        
++--------------+
+| character_id |
++--------------+
++--------------+
+(0 rows)
+
+             Table "public.character_actions"
++--------------+---------+-----------+----------+---------+
+|    Column    |  Type   | Collation | Nullable | Default |
++--------------+---------+-----------+----------+---------+
+| character_id | integer |           | not null |         |
++--------------+---------+-----------+----------+---------+
+Foreign-key constraints:
+    "character_actions_character_id_fkey" FOREIGN KEY (character_id) REFERENCES characters(character_id)
+
+ALTER TABLE
+ALTER TABLE
+              
++--------------+-----------+
+| character_id | action_id |
++--------------+-----------+
++--------------+-----------+
+(0 rows)
+
+             Table "public.character_actions"
++--------------+---------+-----------+----------+---------+
+|    Column    |  Type   | Collation | Nullable | Default |
++--------------+---------+-----------+----------+---------+
+| character_id | integer |           | not null |         |
+| action_id    | integer |           | not null |         |
++--------------+---------+-----------+----------+---------+
+Foreign-key constraints:
+    "character_actions_action_id_fkey" FOREIGN KEY (action_id) REFERENCES actions(action_id)
+    "character_actions_character_id_fkey" FOREIGN KEY (character_id) REFERENCES characters(character_id)
+
+ALTER TABLE
+             Table "public.character_actions"
++--------------+---------+-----------+----------+---------+
+|    Column    |  Type   | Collation | Nullable | Default |
++--------------+---------+-----------+----------+---------+
+| character_id | integer |           | not null |         |
+| action_id    | integer |           | not null |         |
++--------------+---------+-----------+----------+---------+
+Indexes:
+    "character_actions_pkey" PRIMARY KEY, btree (character_id, action_id)
+Foreign-key constraints:
+    "character_actions_action_id_fkey" FOREIGN KEY (action_id) REFERENCES actions(action_id)
+    "character_actions_character_id_fkey" FOREIGN KEY (character_id) REFERENCES characters(character_id)
+
+           
++-----------+--------+
+| action_id | action |
++-----------+--------+
+|         1 | run    |
+|         2 | jump   |
+|         3 | duck   |
++-----------+--------+
+(3 rows)
+
+           
++-----------+--------+
+| action_id | action |
++-----------+--------+
+|         1 | run    |
+|         2 | jump   |
+|         3 | duck   |
++-----------+--------+
+(3 rows)
+
+             
++--------+--------------+
+|  name  | character_id |
++--------+--------------+
+| Luigi  |            2 |
+| Peach  |            3 |
+| Yoshi  |            6 |
+| Daisy  |            7 |
+| Mario  |            1 |
+| Toad   |            4 |
+| Bowser |            5 |
++--------+--------------+
+(7 rows)
+
+              
++--------------+-----------+
+| character_id | action_id |
++--------------+-----------+
++--------------+-----------+
+(0 rows)
+
+INSERT 0 3
+              
++--------------+-----------+
+| character_id | action_id |
++--------------+-----------+
+|            6 |         1 |
+|            6 |         2 |
+|            6 |         3 |
++--------------+-----------+
+(3 rows)
+
+INSERT 0 3
+INSERT 0 3
+INSERT 0 3
+INSERT 0 3
+INSERT 0 3
+INSERT 0 3
+              
++--------------+-----------+
+| character_id | action_id |
++--------------+-----------+
+|            6 |         1 |
+|            6 |         2 |
+|            6 |         3 |
+|            7 |         1 |
+|            7 |         2 |
+|            7 |         3 |
+|            5 |         1 |
+|            5 |         2 |
+|            5 |         3 |
+|            4 |         1 |
+|            4 |         2 |
+|            4 |         3 |
+|            3 |         1 |
+|            3 |         2 |
+|            3 |         3 |
+|            2 |         1 |
+|            2 |         2 |
+|            2 |         3 |
+|            1 |         1 |
+|            1 |         2 |
+|            1 |         3 |
++--------------+-----------+
+(21 rows)
+
+              
++--------------+-----------+
+| character_id | action_id |
++--------------+-----------+
+|            6 |         1 |
+|            6 |         2 |
+|            6 |         3 |
+|            7 |         1 |
+|            7 |         2 |
+|            7 |         3 |
+|            5 |         1 |
+|            5 |         2 |
+|            5 |         3 |
+|            4 |         1 |
+|            4 |         2 |
+|            4 |         3 |
+|            3 |         1 |
+|            3 |         2 |
+|            3 |         3 |
+|            2 |         1 |
+|            2 |         2 |
+|            2 |         3 |
+|            1 |         1 |
+|            1 |         2 |
+|            1 |         3 |
++--------------+-----------+
+(21 rows)
+
+                                   List of databases
++----------------+--------------+----------+---------+---------+-----------------------+
+|      Name      |    Owner     | Encoding | Collate |  Ctype  |   Access privileges   |
++----------------+--------------+----------+---------+---------+-----------------------+
+| mario_database | freecodecamp | UTF8     | C.UTF-8 | C.UTF-8 |                       |
+| postgres       | postgres     | UTF8     | C.UTF-8 | C.UTF-8 |                       |
+| template0      | postgres     | UTF8     | C.UTF-8 | C.UTF-8 | =c/postgres          +|
+|                |              |          |         |         | postgres=CTc/postgres |
+| template1      | postgres     | UTF8     | C.UTF-8 | C.UTF-8 | =c/postgres          +|
+|                |              |          |         |         | postgres=CTc/postgres |
++----------------+--------------+----------+---------+---------+-----------------------+
+(4 rows)
+
+                        List of relations
++--------+-----------------------------+----------+--------------+
+| Schema |            Name             |   Type   |    Owner     |
++--------+-----------------------------+----------+--------------+
+| public | actions                     | table    | freecodecamp |
+| public | actions_action_id_seq       | sequence | freecodecamp |
+| public | character_actions           | table    | freecodecamp |
+| public | characters                  | table    | freecodecamp |
+| public | characters_character_id_seq | sequence | freecodecamp |
+| public | more_info                   | table    | freecodecamp |
+| public | more_info_more_info_id_seq  | sequence | freecodecamp |
+| public | sounds                      | table    | freecodecamp |
+| public | sounds_sound_id_seq         | sequence | freecodecamp |
++--------+-----------------------------+----------+--------------+
+(9 rows)
+
+                               
++--------------+--------+------------------+----------------+
+| character_id |  name  |     homeland     | favorite_color |
++--------------+--------+------------------+----------------+
+|            2 | Luigi  | Mushroom Kingdom | Green          |
+|            3 | Peach  | Mushroom Kingdom | Pink           |
+|            6 | Yoshi  | Dinosaur Land    | Green          |
+|            7 | Daisy  | Sarasaland       | Orange         |
+|            1 | Mario  | Mushroom Kingdom | Red            |
+|            4 | Toad   | Mushroom Kingdom | Blue           |
+|            5 | Bowser | Koopa Kingdom    | Yellow         |
++--------------+--------+------------------+----------------+
+(7 rows)
+
+                                     
++--------------+------------+--------------+--------------+--------------+
+| more_info_id |  birthday  | height_in_cm | weight_in_kg | character_id |
++--------------+------------+--------------+--------------+--------------+
+|            2 | 1981-07-09 |          155 |         64.5 |            1 |
+|            4 | 1983-07-14 |          175 |         48.8 |            2 |
+|            5 | 1985-10-18 |          173 |         52.2 |            3 |
+|            6 | 1950-01-10 |           66 |         35.6 |            4 |
+|            7 | 1990-10-29 |          258 |        300.0 |            5 |
+|            8 | 1980-07-31 |              |              |            7 |
+|            9 | 1990-04-13 |          162 |         59.1 |            6 |
++--------------+------------+--------------+--------------+--------------+
+(7 rows)
+
+                                                                   
++--------------+--------+------------------+----------------+--------------+------------+--------------+--------------+--------------+
+| character_id |  name  |     homeland     | favorite_color | more_info_id |  birthday  | height_in_cm | weight_in_kg | character_id |
++--------------+--------+------------------+----------------+--------------+------------+--------------+--------------+--------------+
+|            1 | Mario  | Mushroom Kingdom | Red            |            2 | 1981-07-09 |          155 |         64.5 |            1 |
+|            2 | Luigi  | Mushroom Kingdom | Green          |            4 | 1983-07-14 |          175 |         48.8 |            2 |
+|            3 | Peach  | Mushroom Kingdom | Pink           |            5 | 1985-10-18 |          173 |         52.2 |            3 |
+|            4 | Toad   | Mushroom Kingdom | Blue           |            6 | 1950-01-10 |           66 |         35.6 |            4 |
+|            5 | Bowser | Koopa Kingdom    | Yellow         |            7 | 1990-10-29 |          258 |        300.0 |            5 |
+|            7 | Daisy  | Sarasaland       | Orange         |            8 | 1980-07-31 |              |              |            7 |
+|            6 | Yoshi  | Dinosaur Land    | Green          |            9 | 1990-04-13 |          162 |         59.1 |            6 |
++--------------+--------+------------------+----------------+--------------+------------+--------------+--------------+--------------+
+(7 rows)
+
+                                                   
++--------------+--------+------------------+----------------+----------+--------------+--------------+
+| character_id |  name  |     homeland     | favorite_color | sound_id |   filename   | character_id |
++--------------+--------+------------------+----------------+----------+--------------+--------------+
+|            1 | Mario  | Mushroom Kingdom | Red            |        1 | its-a-me.wav |            1 |
+|            1 | Mario  | Mushroom Kingdom | Red            |        2 | yippee.wav   |            1 |
+|            2 | Luigi  | Mushroom Kingdom | Green          |        3 | ha-ha.wav    |            2 |
+|            2 | Luigi  | Mushroom Kingdom | Green          |        4 | oh-yeah.wav  |            2 |
+|            3 | Peach  | Mushroom Kingdom | Pink           |        8 | yay.wav      |            3 |
+|            3 | Peach  | Mushroom Kingdom | Pink           |        9 | woo-hoo.wav  |            3 |
+|            3 | Peach  | Mushroom Kingdom | Pink           |       10 | mm-hmm.wav   |            3 |
+|            1 | Mario  | Mushroom Kingdom | Red            |       11 | yahoo.wav    |            1 |
+|            5 | Bowser | Koopa Kingdom    | Yellow         |          |              |              |
+|            6 | Yoshi  | Dinosaur Land    | Green          |          |              |              |
+|            4 | Toad   | Mushroom Kingdom | Blue           |          |              |              |
+|            7 | Daisy  | Sarasaland       | Orange         |          |              |              |
++--------------+--------+------------------+----------------+----------+--------------+--------------+
+(12 rows)
+
+                               
++--------------+--------+------------------+----------------+
+| character_id |  name  |     homeland     | favorite_color |
++--------------+--------+------------------+----------------+
+|            2 | Luigi  | Mushroom Kingdom | Green          |
+|            3 | Peach  | Mushroom Kingdom | Pink           |
+|            6 | Yoshi  | Dinosaur Land    | Green          |
+|            7 | Daisy  | Sarasaland       | Orange         |
+|            1 | Mario  | Mushroom Kingdom | Red            |
+|            4 | Toad   | Mushroom Kingdom | Blue           |
+|            5 | Bowser | Koopa Kingdom    | Yellow         |
++--------------+--------+------------------+----------------+
+(7 rows)
+
+                                            
++--------------+--------+------------------+----------------+--------------+-----------+
+| character_id |  name  |     homeland     | favorite_color | character_id | action_id |
++--------------+--------+------------------+----------------+--------------+-----------+
+|            6 | Yoshi  | Dinosaur Land    | Green          |            6 |         1 |
+|            6 | Yoshi  | Dinosaur Land    | Green          |            6 |         2 |
+|            6 | Yoshi  | Dinosaur Land    | Green          |            6 |         3 |
+|            7 | Daisy  | Sarasaland       | Orange         |            7 |         1 |
+|            7 | Daisy  | Sarasaland       | Orange         |            7 |         2 |
+|            7 | Daisy  | Sarasaland       | Orange         |            7 |         3 |
+|            5 | Bowser | Koopa Kingdom    | Yellow         |            5 |         1 |
+|            5 | Bowser | Koopa Kingdom    | Yellow         |            5 |         2 |
+|            5 | Bowser | Koopa Kingdom    | Yellow         |            5 |         3 |
+|            4 | Toad   | Mushroom Kingdom | Blue           |            4 |         1 |
+|            4 | Toad   | Mushroom Kingdom | Blue           |            4 |         2 |
+|            4 | Toad   | Mushroom Kingdom | Blue           |            4 |         3 |
+|            3 | Peach  | Mushroom Kingdom | Pink           |            3 |         1 |
+|            3 | Peach  | Mushroom Kingdom | Pink           |            3 |         2 |
+|            3 | Peach  | Mushroom Kingdom | Pink           |            3 |         3 |
+|            2 | Luigi  | Mushroom Kingdom | Green          |            2 |         1 |
+|            2 | Luigi  | Mushroom Kingdom | Green          |            2 |         2 |
+|            2 | Luigi  | Mushroom Kingdom | Green          |            2 |         3 |
+|            1 | Mario  | Mushroom Kingdom | Red            |            1 |         1 |
+|            1 | Mario  | Mushroom Kingdom | Red            |            1 |         2 |
+|            1 | Mario  | Mushroom Kingdom | Red            |            1 |         3 |
++--------------+--------+------------------+----------------+--------------+-----------+
+(21 rows)
+
+                                                       
++--------------+--------+------------------+----------------+--------------+-----------+-----------+--------+
+| character_id |  name  |     homeland     | favorite_color | character_id | action_id | action_id | action |
++--------------+--------+------------------+----------------+--------------+-----------+-----------+--------+
+|            6 | Yoshi  | Dinosaur Land    | Green          |            6 |         1 |           |        |
+|            6 | Yoshi  | Dinosaur Land    | Green          |            6 |         2 |           |        |
+|            6 | Yoshi  | Dinosaur Land    | Green          |            6 |         3 |           |        |
+|            7 | Daisy  | Sarasaland       | Orange         |            7 |         1 |           |        |
+|            7 | Daisy  | Sarasaland       | Orange         |            7 |         2 |           |        |
+|            7 | Daisy  | Sarasaland       | Orange         |            7 |         3 |           |        |
+|            5 | Bowser | Koopa Kingdom    | Yellow         |            5 |         1 |           |        |
+|            5 | Bowser | Koopa Kingdom    | Yellow         |            5 |         2 |           |        |
+|            5 | Bowser | Koopa Kingdom    | Yellow         |            5 |         3 |           |        |
+|            4 | Toad   | Mushroom Kingdom | Blue           |            4 |         1 |           |        |
+|            4 | Toad   | Mushroom Kingdom | Blue           |            4 |         2 |           |        |
+|            4 | Toad   | Mushroom Kingdom | Blue           |            4 |         3 |           |        |
+|            3 | Peach  | Mushroom Kingdom | Pink           |            3 |         1 |         3 | duck   |
+|            3 | Peach  | Mushroom Kingdom | Pink           |            3 |         2 |         3 | duck   |
+|            3 | Peach  | Mushroom Kingdom | Pink           |            3 |         3 |         3 | duck   |
+|            2 | Luigi  | Mushroom Kingdom | Green          |            2 |         1 |         2 | jump   |
+|            2 | Luigi  | Mushroom Kingdom | Green          |            2 |         2 |         2 | jump   |
+|            2 | Luigi  | Mushroom Kingdom | Green          |            2 |         3 |         2 | jump   |
+|            1 | Mario  | Mushroom Kingdom | Red            |            1 |         1 |         1 | run    |
+|            1 | Mario  | Mushroom Kingdom | Red            |            1 |         2 |         1 | run    |
+|            1 | Mario  | Mushroom Kingdom | Red            |            1 |         3 |         1 | run    |
++--------------+--------+------------------+----------------+--------------+-----------+-----------+--------+
+(21 rows)
+

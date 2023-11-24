@@ -1,0 +1,20 @@
+2023-11-24 00:27:13.639 [info] 
+
+
+
+
+2023-11-24 00:27:13.653 [info] Extension host agent started.
+2023-11-24 00:27:13.710 [debug] No uninstalled extensions found.
+2023-11-24 00:27:13.784 [info] [127.0.0.1][1c65aec3][ManagementConnection] New connection established.
+2023-11-24 00:27:13.808 [info] Log level changed to info
+2023-11-24 00:27:14.024 [info] [127.0.0.1][c7b8ab8a][ExtensionHostConnection] New connection established.
+2023-11-24 00:27:14.043 [info] [127.0.0.1][c7b8ab8a][ExtensionHostConnection] <286> Launched Extension Host Process.
+2023-11-24 02:57:13.428 [info] [127.0.0.1][c7b8ab8a][ExtensionHostConnection] The client has reconnected.
+2023-11-24 02:57:13.532 [info] [127.0.0.1][1c65aec3][ManagementConnection] The client has reconnected.
+2023-11-24 04:46:37.225 [info] [127.0.0.1][1c65aec3][ManagementConnection] The client has reconnected.
+2023-11-24 04:50:40.956 [info] [127.0.0.1][c7b8ab8a][ExtensionHostConnection] The client has reconnected.
+2023-11-24 07:40:28.459 [info] [127.0.0.1][1c65aec3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-11-24 07:40:28.538 [info] [127.0.0.1][c7b8ab8a][ExtensionHostConnection] <286> Extension Host Process exited with code: 0, signal: null.
+2023-11-24 07:40:33.326 [info] [127.0.0.1][5d1b854b][ManagementConnection] New connection established.
+2023-11-24 07:40:34.107 [info] [127.0.0.1][d01e2b6b][ExtensionHostConnection] New connection established.
+2023-11-24 07:40:34.122 [info] [127.0.0.1][d01e2b6b][ExtensionHostConnection] <99282> Launched Extension Host Process.

@@ -1,0 +1,1 @@
+{"version":3,"file":"onOpenLogs.js","sourceRoot":"","sources":["../../src/actions/onOpenLogs.ts"],"names":[],"mappings":";;;AACA,0DAA0D;AAEnD,MAAM,UAAU,GAAG,KAAK,EAAE,MAAgB,EAAiB,EAAE;IAClE,MAAM,OAAO,GAAG,MAAM,CAAC,OAAO,CAAC,OAAO,CAAA;IACtC,MAAM,IAAA,mBAAU,EAAC,OAAO,CAAC,CAAA;AAC3B,CAAC,CAAA;AAHY,QAAA,UAAU,cAGtB;AAED,kBAAe,kBAAU,CAAA"}

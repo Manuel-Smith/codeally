@@ -1,0 +1,102 @@
+FAILED TEST LOG
+  ✘ tests should pass
+
+Error: Could not find /home/codeally/.bash_history
+at getLastCommand (test/utils.js:13:11)
+at async Context.<anonymous> (test/10.test.js:6:25)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'echo' && lastCommand[1] === 'hello' && lastCommand[2] === 'PostgreSQL')
+
+at Context.<anonymous> (test/10.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should have a database named second_database
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/60.test.js:19:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ You should be connected to "second_database"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(lastLog))
+
+at Context.<anonymous> (test/80.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should display the details of "second_table"
+
+Error: Could not find /home/codeally/queryResults.log
+at getLastQueryResult (test/utils.js:57:11)
+at async Context.<anonymous> (test/200.test.js:6:29)
+FAILED TEST LOG
+  ✘ You should display the details of "second_table"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/Table"public\.second_table"/.test(lastQueryResult))
+
+at Context.<anonymous> (test/200.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should display the details of "second_table"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/Table"public\.second_table"/.test(lastQueryResult))
+
+at Context.<anonymous> (test/200.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should display the details of "second_table"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/Table"public\.second_table"/.test(lastQueryResult))
+
+at Context.<anonymous> (test/250.test.js:8:5)
+FAILED TEST LOG
+  ✘ "second_table" should not have a row for "Samus"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/370.test.js:24:7)
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+FAILED TEST LOG
+  ✘ You should display the tables with suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(d.test(lastLog))
+
+at Context.<anonymous> (test/420.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should use "SELECT" to view all the data in "characters"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(selectAll.test(lastLog) && !/ERROR/.test(lastLog))
+
+at Context.<anonymous> (test/620.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should display the details of the "characters" table
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/Table"public\.characters"/.test(lastQueryResult))
+
+at Context.<anonymous> (test/830.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should display the details of the "more_info" table
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/Table"public\.more_info"/.test(lastQueryResult))
+
+at Context.<anonymous> (test/940.test.js:8:5)

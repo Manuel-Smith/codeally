@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'programmatic-test',
+1 verbose cli   '--reporter=mocha-tap-reporter'
+1 verbose cli ]
+2 info using npm@6.14.18
+3 info using node@v14.21.3
+4 verbose run-script [
+4 verbose run-script   'preprogrammatic-test',
+4 verbose run-script   'programmatic-test',
+4 verbose run-script   'postprogrammatic-test'
+4 verbose run-script ]
+5 info lifecycle coderoad@1.0.0~preprogrammatic-test: coderoad@1.0.0
+6 info lifecycle coderoad@1.0.0~programmatic-test: coderoad@1.0.0
+7 verbose lifecycle coderoad@1.0.0~programmatic-test: unsafe-perm in lifecycle true
+8 verbose lifecycle coderoad@1.0.0~programmatic-test: PATH: /usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/codeally/project/.freeCodeCamp/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+9 verbose lifecycle coderoad@1.0.0~programmatic-test: CWD: /home/codeally/project/.freeCodeCamp
+10 silly lifecycle coderoad@1.0.0~programmatic-test: Args: [ '-c', 'mocha --config .mocharc.json' ]
+11 silly lifecycle coderoad@1.0.0~programmatic-test: Returned: code: 1  signal: null
+12 info lifecycle coderoad@1.0.0~programmatic-test: Failed to exec programmatic-test script
+13 verbose stack Error: coderoad@1.0.0 programmatic-test: `mocha --config .mocharc.json`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:400:28)
+13 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:400:28)
+13 verbose stack     at maybeClose (internal/child_process.js:1088:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:296:5)
+14 verbose pkgid coderoad@1.0.0
+15 verbose cwd /home/codeally/project/.freeCodeCamp
+16 verbose Linux 5.15.133.1-microsoft-standard-WSL2
+17 verbose argv "/usr/bin/node" "/usr/bin/npm" "run" "programmatic-test" "--reporter=mocha-tap-reporter"
+18 verbose node v14.21.3
+19 verbose npm  v6.14.18
+20 error code ELIFECYCLE
+21 error errno 1
+22 error coderoad@1.0.0 programmatic-test: `mocha --config .mocharc.json`
+22 error Exit status 1
+23 error Failed at the coderoad@1.0.0 programmatic-test script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]

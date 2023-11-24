@@ -1,0 +1,32 @@
+2023-11-22 09:10:16.612 [info] 
+
+
+
+
+2023-11-22 09:10:16.612 [info] Installing extensions...
+2023-11-22 09:10:16.612 [info] Extension host agent started.
+2023-11-22 09:10:16.612 [info] Started initializing default profile extensions in extensions installation folder. file:///home/codeally/.vscode-server/extensions
+2023-11-22 09:10:16.619 [debug] ComputeTargetPlatform: linux-x64
+2023-11-22 09:10:16.773 [info] [127.0.0.1][0d2a8806][ManagementConnection] New connection established.
+2023-11-22 09:10:16.800 [info] Log level changed to info
+2023-11-22 09:10:16.836 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/codeally/.vscode-server/extensions
+2023-11-22 09:10:16.993 [info] [127.0.0.1][24f6f554][ExtensionHostConnection] New connection established.
+2023-11-22 09:10:17.009 [info] [127.0.0.1][24f6f554][ExtensionHostConnection] <294> Launched Extension Host Process.
+2023-11-22 09:10:17.467 [info] Installing extension 'coderoad.coderoad' v0.15.1...
+2023-11-22 09:10:17.468 [info] Getting Manifest... coderoad.coderoad
+2023-11-22 09:10:17.486 [info] Installing extension: coderoad.coderoad
+2023-11-22 09:11:00.239 [info] Extension signature verification is not done: coderoad.coderoad
+2023-11-22 09:11:08.337 [info] Extracted extension to file:///home/codeally/.vscode-server/extensions/coderoad.coderoad-0.15.1: coderoad.coderoad
+2023-11-22 09:11:08.361 [info] Renamed to /home/codeally/.vscode-server/extensions/coderoad.coderoad-0.15.1
+2023-11-22 09:11:08.364 [info] Extracting extension completed. coderoad.coderoad
+2023-11-22 09:11:08.376 [info] Extension installed successfully: coderoad.coderoad
+2023-11-22 09:11:08.377 [info] Extension 'coderoad.coderoad' v0.15.1 was successfully installed.
+2023-11-22 10:02:15.378 [info] [127.0.0.1][0d2a8806][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-11-22 10:02:15.496 [info] [127.0.0.1][24f6f554][ExtensionHostConnection] <294> Extension Host Process exited with code: 0, signal: null.
+2023-11-22 10:02:27.031 [info] [127.0.0.1][a86bd00b][ManagementConnection] New connection established.
+2023-11-22 10:02:27.226 [info] [127.0.0.1][ce3e5f9d][ExtensionHostConnection] New connection established.
+2023-11-22 10:02:27.238 [info] [127.0.0.1][ce3e5f9d][ExtensionHostConnection] <26307> Launched Extension Host Process.
+2023-11-22 10:28:47.229 [info] [127.0.0.1][a86bd00b][ManagementConnection] The client has reconnected.
+2023-11-22 10:28:49.609 [info] [127.0.0.1][ce3e5f9d][ExtensionHostConnection] The client has reconnected.
+2023-11-22 10:37:06.163 [info] [127.0.0.1][a86bd00b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-11-22 10:37:06.242 [info] [127.0.0.1][ce3e5f9d][ExtensionHostConnection] <26307> Extension Host Process exited with code: 0, signal: null.
